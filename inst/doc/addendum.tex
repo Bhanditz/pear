@@ -1,0 +1,85 @@
+\magnification=\magstep1
+\baselineskip = 20pt
+\tolerance=10000
+\raggedright
+\raggedbottom
+\nopagenumbers
+
+\font\big=cmr12 
+\font\smallrm=cmr8
+\font\smcaps=cmcsc10
+
+\pageno=1
+\input bffonts.tex
+
+\def\BIC{\hbox{\rm BIC}}
+\def\Var{\hbox{\rm Var}}
+
+\pageno=1
+\centerline{\bf Diagnostic Checking Periodic Autoregression Models}
+\centerline{\bf  With Application}
+\bigskip
+\centerline{A.I. McLeod}
+\bigskip
+\centerline{{\it The Journal of Time Series Analysis\/}, Vol. 15, No. 2, p.225}
+
+\bigskip
+
+\centerline{\big ADDENDUM}
+\bigskip
+
+I have written Splus functions for the methodology discussed in
+my paper.
+S style documentation for each function is provided.
+Splus version 3.2 is required.
+To obtain, e-mail the following message:
+{\it send pear from S} to statlib@temper.stat.cmu.edu.
+
+I did not precisely define the sample periodic
+autocovariance function in the case where the data lengths
+for periods are unequal. For example, in the data used
+for the Fraser River from March 1913 to December 1991, there
+are 78 observations in January and February and 79 in each of
+the other months. 
+This omission is rectified by noting that in
+eqn. (2.2), the $n$ refers to the ceiling of $N/s$ and
+the summation is over all data values in the sample.
+
+Note the following typographical corrections:
+
+\item{(i)} p.222, l.22: from March 1912 to December 1990. Figure
+1 abscissa labels should be changed accordingly.
+\bigskip
+
+\item{(ii)} p.223, l.12: parallel lines at $\pm 1.96/\surd{n}$
+\bigskip
+
+\item{(iii)} 
+$$\BIC_m = n \ln \hat \sigma_m^2 + \ln(n) p_m.\eqno{(2.4)}$$
+
+\item{(iv)}
+$$I_m = {1\over \sigma_m^2} (\gamma_{i-j,m-j}).\eqno{(3.3)}$$
+
+
+\item{(v)} 
+$$\tilde Q_{L,m} = \sum\limits_{\ell=1}^L 
+{ \hat r^2_{\ell,m}\over  \Var(r_{\ell,m})  }. \eqno{(4.5)}$$
+
+\item{(vi)}
+p.228, l.9
+with $(i,j)$ entry $-\psi_{i-j, m-j} \sigma_{m-i} / \sigma_{m}$. 
+
+\item{(vii)} There are several minor numerical errors in 
+Tables I and Table III due to using a divisor of 78
+instead of 79 for some months.
+The the actual fit of the suggested model is slightly improved.
+The corrected tables are given in the files table1.tex and table3.tex
+which are included with the software available from statlib.
+
+
+My thanks to Professor A.S. Kozek for pointing out the need to
+precisely define the sample periodic autocorrelations in the unequal
+lengths case and for bringing the need for some typographical 
+corrections to my attention.
+
+\bye

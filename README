@@ -1,0 +1,22 @@
+This is an R port of McLeod's periodic autoregression library 
+from StatLib.
+
+See README.orig and COPYRIGHT.orig for original author and Copyright.
+
+
+=====================================================================
+                         Mehmet Balcilar                             
+ Cukurova University                        Tel: (+90 322) 338 7254
+ Department of Econometrics                 Fax: (+90 322) 338 7283
+ Balcali, Adana 01330      		    mbalcilar@cu.edu.tr
+ Turkey
+
+ and
+
+ Kyrgyz-Turkish Manas University (Current)  Tel: (+996 312) 541 942 
+ Department of Economics                    Fax: (+996 312) 541 935
+ Tinctik Prospect 56                        mbalcilar@manas.kg
+ Bishkek      
+ Kyrgyzstan
+=====================================================================
+

@@ -1,0 +1,27 @@
+pear (Periodic Autoregression) library section
+
+FUNCTIONS 
+
+peacf               calculate and plot periodic autocorrelation
+peacf.plot	    plot periodic corrrelation function
+pear		    fit periodic autoregression model
+peboxplot           boxplot of periodic time series
+pepacf		    calculate and plot periodic partial autocorrelation
+peplot		    visualization plots for periodic correlations
+pepsi		    moving average expansion for periodic autoregression
+
+DATASETS
+fraser              mean monthly flow of Fraser River at Hope, B.C.
+ozone		    ozone concentration in L.A.
+
+Copyright: (c) A.I. McLeod (1995). A.I. McLeod gives permission
+to use this software for any non-commercial purpose. It would
+be appreciated if that if you find this methodology useful, you
+cite the journal article below as well as statlib.
+
+Reference: A.I. McLeod (1994) "Diagnostic Checking of Periodic
+Autoregression Models with Application", Journal of Time Series
+Analysis, Vol. 15, No.2, pp.221--233. Errata list is attached
+in the file errata.tex.
+
+Questions and comments to aim@uwo.ca
