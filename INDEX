@@ -1,9 +1,15 @@
-peacf               calculate and plot periodic autocorrelation
-peacf.plot	    plot periodic corrrelation function
-pear		    fit periodic autoregression model
-peboxplot           boxplot of periodic time series
-pepacf		    calculate and plot periodic partial autocorrelation
-peplot		    visualization plots for periodic correlations
-pepsi		    moving average expansion for periodic autoregression
-fraser              mean monthly flow of Fraser River at Hope, B.C.
-ozone		    ozone concentration in L.A.
+find.ice                minimum of information criteria aic or bic 
+fraser                  Fraser River at Hope, mean monthly flow (cms),
+                        1912.3-1991.12 
+ozone                   Ozone concentration, downtown L.A.,
+                        1955.1-1972.12 
+peacf                   Periodic Autocorrelation Function 
+peacf.plot              periodic correlation plot 
+pear                    fit a periodic autoregression model 
+peboxplot               boxplots of a periodic time series 
+pepacf                  periodic partial autocorrelation function 
+peplot                  Periodic Correlation Visualization Plot 
+pepsi                   moving average expansion of a periodic
+                        autoregression 
+var.periodic.correlation
+                        variance of the periodic autocorrelations 
