@@ -80,4 +80,4 @@ structure(.Data = c(485, 1150, 4990, 6130, 4780, 3960, 2160, 1530, 1060, 761,
 	1913.1666666666667, 1991.9166666666667, 12), period.abb = c("Jan", 
 	"Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", 
 	"Dec"), title = 
-	"Fraser River at Hope, mean monthly flow (cms),  1912.3-1991.12")
+	"Fraser River at Hope, mean monthly flow (cms),  1912.3-1991.12", class="ts")

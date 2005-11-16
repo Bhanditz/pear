@@ -53,4 +53,4 @@ structure(.Data = c(2.7000000000000002, 2, 3.6000000000000001, 5, 6.5,
 	 = c(1955, 1972.9166666666667, 12), title = 
 	"Ozone concentration, downtown L.A., 1955.1-1972.12", abb = c("Jan", 
 	"Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", 
-	"Dec"))
+	"Dec"),class="ts")
