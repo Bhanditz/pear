@@ -1,9 +1,3 @@
-This is an R port of McLeod's periodic autoregression library 
-from StatLib.
-
-See README.orig and COPYRIGHT.orig for original author and Copyright.
-
-
 =====================================================================
                          Mehmet Balcilar                             
  Cukurova University                        Tel: (+90 322) 338 7254
@@ -19,4 +13,8 @@ See README.orig and COPYRIGHT.orig for original author and Copyright.
  Bishkek      
  Kyrgyzstan
 =====================================================================
-
+			A. Ian McLeod
+  University of Western Ontario			Tel: 519 661 3611
+  Department of Statistical & Act. Sc.
+  London, Ontario N6A 5B7
+  Canada
