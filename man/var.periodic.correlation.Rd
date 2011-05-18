@@ -8,4 +8,3 @@ variance of the periodic autocorrelations
   autocorrelations.
 }
 \keyword{internal}
-% Converted by Sd2Rd version 1.21.

@@ -27,31 +27,33 @@ will be used to aid one in interpreting the output.
 lag separation
 }
 \item{label}{
-if label = TRUE, the Splus identify() function will be called allowing
+if label = TRUE, the identify() function will be called allowing
 one to identify and label particular data points on the plots.
 }
 \item{mfrow}{
-Since many plots may be produced, the default is to produced 4 plots 
+Since many plots may be produced, the default is to produce 4 plots 
 per page.
 }}
+
 \value{
-NULL
+none
 }
 \section{Side Effects}{
 plot produced
 }
+
 \details{
-The importance of looking at these plots was noted by Cox (1981)
+This plot provides a visualization of the periodic autocorrelation just
+as \code{lag.plot()} for the usual autocorrelations.
 }
-\references{
-Cox, D.R. (1981), "Statistical Analysis of Time Series: Some Recent
-Developments", Scandinavian Journal of Statistics, Vol. 8, pp.93--115.
-}
+
 \seealso{
+lag.plot
 }
+
 \examples{
-data(fraser)
-peplot(log(fraser))
+data(Fraser)
+peplot(log(Fraser))
 }
+
 \keyword{ts}
-% Converted by Sd2Rd version 1.21.

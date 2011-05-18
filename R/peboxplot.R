@@ -8,6 +8,5 @@ function(z, ...)
 	boxplot(split(z, cycle(z)), names = z.names, ...)
 	if(!is.null(ztitle))
 		title(main = ztitle)
-	NULL
 }
 

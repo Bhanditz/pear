@@ -14,15 +14,18 @@ The function pepsi is used by pear to calculate the estimated
 standard deviations of the residual autocorrelations in a fitted
 periodic autoregression.
 }
+
 \usage{
 pepsi(phi, lag.max)
 }
+
 \arguments{
 \item{phi}{
 matrix with (i,j)-entry phi[i, j] where phi[i,j] is the 
 autoregressive coefficient for period i at lag j. Here i=1,\dots,p 
 and j=1,\dots,m where m is highest ar order specified.
 }
+
 \item{lag.max}{
 maximum number of lags to calculate in the moving average expansion.
 }}
@@ -31,9 +34,11 @@ matrix with (i,j)-entry psi[i, j] where psi[i,j] is the
 autoregressive coefficient for period i at lag j. Here i=1,\dots,p 
 and j=1,\dots,lag.max.
 }
+
 \section{Side Effects}{
 none
 }
+
 \details{
 The moving average expansion for a periodic autoregressive is defined
 in equation (1.4) of McLeod (1994) and the algorithm implements
@@ -46,10 +51,10 @@ Journal of Time Series Analysis, Vol. 15, No. 2, pp.221--233.
 \seealso{
 pear
 }
+
 \examples{
-data(fraser)
-pear.out <- pear(log(fraser), ic="bic")
+data(Fraser)
+pear.out <- pear(log(Fraser), ic="bic")
 pepsi(pear.out$phi,lag.max=20)
 }
 \keyword{ts}
-% Converted by Sd2Rd version 1.21.

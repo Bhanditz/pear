@@ -35,6 +35,5 @@ function(r)
 		}
 	}
 	title(main = ts.title, ylab = ylabel)
-	NULL
 }
 

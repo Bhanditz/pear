@@ -66,6 +66,5 @@ function(z, lag = 1, label = FALSE, mfrow = c(2, 2))
 		}
 	}
 	par(mfrow = c(1, 1))
-	NULL
 }
 

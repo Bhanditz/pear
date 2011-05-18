@@ -8,4 +8,3 @@ minimum of information criteria aic or bic
   values
 }
 \keyword{internal}
-% Converted by Sd2Rd version 1.21.

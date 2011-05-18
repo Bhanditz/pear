@@ -57,25 +57,37 @@ a plot is produced if plot=TRUE
 \details{
 For the detailed derivation of the algorithm see Sakai (1982).
 Note that our partial autocorrelation is the negative of that
-given in Sakai's paper. 
+given in Sakai's paper.
+
+The paper of Noakes et al. (1987) and the book of Hipel and McLeod (1994)
+contain examples of this type of plot. 
 }
+
 \references{
 Box, G.E.P. and Jenkins, G.M. (1976), "Time Series Analysis: Forecasting
 and Control", Holden-Day: San Franciso.
+
 Hipel, K.W. and McLeod, A.I. (1994) "Time Series Modelling of 
 Water Resources and Environmental Systems"  Elsevier, Amsterdam
 ISBN 0--444--89270--2.  (1013 pages).
+
 McLeod, A.I. (1994), "Diagnostic Checking of Periodic Autoregression"
 Journal of Time Series Analysis, Vol. 15, No. 2, pp.221--233.
+
+Noakes, D.J., Hipel, K.W. & McLeod, A.I. (1987).  
+Forecasting experiments with annual geophysical time series,  
+The International Journal of Forecasting, V.4, pp.103--115.
+
 Sakai, H. (1982), "Circular lattice filtering using Pagano's Method",
 IEEE Transactions, Acoust. Speech, Signal Processing, Vol. 30, pp.279--287.
 }
+
 \seealso{
 peacf, peacf.plot, peplot, acf, acf.plot
 }
+
 \examples{
-data(fraser)
-pepacf(log(fraser))
+data(Fraser)
+pepacf(log(Fraser))
 }
 \keyword{ts}
-% Converted by Sd2Rd version 1.21.

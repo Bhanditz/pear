@@ -1,0 +1,20 @@
+citHeader("To cite pear in publications use:")
+
+citEntry(entry = "Article",
+  title        = "Diagnostic Checking of Periodic Autoregression",
+  author       = personList(as.person("A. I. McLeod")),
+  journal      = "Journal of Time Series Analysis",
+  year         = "1994",
+  volume       = "15",
+  number       = "2",
+  pages        = "221-233",
+
+  textVersion  =
+  paste("A. I. McLeod (1994).",
+        "Diagnostic Checking of Periodic Autoregression",
+        "Journal of Time Series Analysis, Vol. 15, No. 2, pp.221--233.")
+)
+
+
+
+

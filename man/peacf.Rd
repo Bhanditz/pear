@@ -58,12 +58,14 @@ portmanteau.test	   list: portmanteau test at various lags
 \section{Side Effects}{
 a plot may be produced if plot=TRUE
 }
+
 \details{
 The use of the periodic autocorrelation and its plot are discussed
 in McLeod (1994) and a portmanteau model adequacy test is developed
 therein. The periodicity test is discussed in McLeod (1993).
 For more details, see the references below.
 }
+
 \references{
 Hipel, K.W. and McLeod, A.I. (1994) "Time Series Modelling of 
 Water Resources and Environmental Systems"  Elsevier, Amsterdam
@@ -74,15 +76,17 @@ Vol. 61, No. 3, pp.387--393.
 McLeod, A.I. (1994), "Diagnostic Checking of Periodic Autoregression"
 Journal of Time Series Analysis, Vol. 15, No. 2, pp.221--233.
 }
+
 \seealso{
 peacf.plot, pepacf, peplot, peboxplot, pear, acf, acf.plot
 }
+
 \examples{
-data(fraser)
-peacf(log(fraser))
+data(Fraser)
+peacf(log(Fraser))
 }
+
 \keyword{ts}
-% Converted by Sd2Rd version 1.21.
 
 
 

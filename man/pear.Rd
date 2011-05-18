@@ -83,13 +83,13 @@ with their sample values.
 
 }
 \references{
-Box, G.E.P. and Jenkins, G.M. (1976), "Time Series Analysis: Forecasting
-and Control", Holden-Day: San Franciso.
 Hipel, K.W. and McLeod, A.I. (1994) "Time Series Modelling of 
 Water Resources and Environmental Systems"  Elsevier, Amsterdam
 ISBN 0-444-89270-2.  (1013 pages).
+
 McLeod, A.I. (1994), "Diagnostic Checking of Periodic Autoregression"
 Journal of Time Series Analysis, Vol. 15, No. 2, pp.221--233.
+
 McLeod, A.I. (1995), Errata (see file errata.tex included
 with these files)
 }
@@ -97,8 +97,7 @@ with these files)
 peacf, pepacf, ar.yw
 }
 \examples{
-data(fraser)
-pear(log(fraser), ic="bic")
+data(Fraser)
+pear(log(Fraser), ic="bic")
 }
 \keyword{ts}
-% Converted by Sd2Rd version 1.10.

@@ -26,11 +26,13 @@ monthly abbreviations: attr(z, "abb")<-month.abb. These abbreviations
 will be used to aid one in interpreting the output.
 }
 \item{...}{
-optional arguments which are passed to the Splus boxplot function
+optional arguments which are passed to the boxplot function
 }}
+
 \value{
-NULL
+No output is produced. Plot is a 'side effect'.
 }
+
 \section{Side Effects}{
 plot produced
 }
@@ -47,8 +49,7 @@ ISBN 0--444--89270--2.  (1013 pages).
 peplot, monthplot, tsplot
 }
 \examples{
-data(fraser)
-peboxplot(log(fraser))
+data(Fraser)
+peboxplot(log(Fraser))
 }
 \keyword{ts}
-% Converted by Sd2Rd version 1.21.
